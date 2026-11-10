@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Иконка «Наизусть»: лист тетради в клетку, красная «5» учителя и нота синими чернилами.
+       Всё важное внутри центрального круга (80%), чтобы Android мог обрезать края. -->
+  <defs>
+    <pattern id="grid" width="42.667" height="42.667" patternUnits="userSpaceOnUse">
+      <path d="M42.667 0H0V42.667" fill="none" stroke="#DDE6EF" stroke-width="3"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="#F5F7F4"/>
+  <rect width="512" height="512" fill="url(#grid)"/>
+  <!-- поля тетради -->
+  <path d="M86 0V512" stroke="#E59498" stroke-width="4"/>
+
+  <!-- нота синими чернилами -->
+  <g transform="translate(4 0)" fill="#23398C" stroke="#23398C" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="356" cy="312" rx="30" ry="22" transform="rotate(-22 356 312)" stroke="none"/>
+    <path d="M382 302V146" fill="none" stroke-width="12"/>
+    <path d="M382 146c10 26 44 34 46 70" fill="none" stroke-width="12"/>
+  </g>
+
+  <!-- красная «5», как ручкой учителя -->
+  <g transform="translate(-18 0)" fill="none" stroke="#C42F2A" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M292 134C258 138 224 140 196 140" stroke-width="30"/>
+    <path d="M196 140L182 246C214 222 262 216 290 246C320 280 308 344 262 368C226 386 182 378 158 352" stroke-width="30"/>
+    <!-- подчёркивание оценки -->
+    <path d="M150 412C210 400 290 398 350 404" stroke-width="16"/>
+  </g>
+</svg>

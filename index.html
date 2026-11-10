@@ -7,10 +7,17 @@
   <meta name="description" content="Учим песню наизусть по куплетам и припевам под музыку.">
   <meta name="theme-color" content="#F5F7F4">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F5F7F4'/%3E%3Ctext x='16' y='25' font-size='24' text-anchor='middle' fill='%23C42F2A' font-family='cursive'%3E5%3C/text%3E%3C/svg%3E">
+  <!-- Установка на телефон (PWA): манифест, иконки, название под иконкой -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Наизусть">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&family=Marck+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=9">
+  <link rel="stylesheet" href="style.css?v=10">
 </head>
 <body>
   <!-- Шапка: название и кнопка «Данные» -->
@@ -52,6 +59,12 @@
 
   <div id="toast" role="status" aria-live="polite"></div>
 
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
+  <script>
+    // Офлайн-режим: включаем service worker (sw.js). Как файл с диска не работает, это нормально.
+    if ('serviceWorker' in navigator) {
+      addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    }
+  </script>
 </body>
 </html>
