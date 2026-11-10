@@ -1,0 +1,501 @@
+/* Наизусть: тетрадь в клетку, синие чернила, красная ручка учителя для оценок */
+
+:root {
+  --paper: #F5F7F4;
+  --grid: #DDE6EF;
+  --margin: #E59498;
+  --ink: #23398C;
+  --ink-soft: #5D6FB0;
+  --text: #1C2233;
+  --pencil: #6E7484;
+  --red: #C42F2A;
+  --line: #C9D3E0;
+  --white: #FFFFFF;
+
+  --font-ui: "Golos Text", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-lyrics: "Literata", Georgia, "Times New Roman", serif;
+  --font-hand: "Marck Script", "Comic Sans MS", cursive;
+
+  --cell: 24px;
+  --gutter: 16px;
+  --radius: 10px;
+  --tap: 48px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: var(--cell) var(--cell);
+  color: var(--text);
+  font: 400 17px/1.5 var(--font-ui);
+  overflow-x: hidden;
+}
+
+/* Красная линия полей, только на широком экране */
+@media (min-width: 760px) {
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; bottom: 0;
+    left: 64px;
+    width: 2px;
+    background: var(--margin);
+    opacity: .7;
+    pointer-events: none;
+  }
+}
+
+h1, h2, h3 { font-weight: 600; line-height: 1.2; margin: 0; }
+
+a { color: var(--ink); }
+
+:focus-visible {
+  outline: 3px solid var(--ink-soft);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+.muted { color: var(--pencil); }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+[hidden] { display: none !important; }
+
+/* ---------- Шапка ---------- */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px var(--gutter);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 760px) {
+  .topbar, main { padding-left: 96px; padding-right: 32px; }
+}
+
+.brand {
+  font: 600 22px/1 var(--font-lyrics);
+  color: var(--ink);
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 var(--gutter) 48px;
+  outline: none;
+}
+
+/* ---------- Кнопки и поля ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap);
+  padding: 0 20px;
+  border-radius: var(--radius);
+  border: 2px solid transparent;
+  font: 500 16px/1.2 var(--font-ui);
+  cursor: pointer;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: background-color .15s, color .15s, border-color .15s;
+}
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+
+.btn-primary { background: var(--ink); color: var(--white); }
+.btn-primary:hover:not(:disabled) { background: #1A2C70; }
+
+.btn-outline { background: var(--white); color: var(--ink); border-color: var(--ink); }
+.btn-outline:hover:not(:disabled) { background: #EEF1FA; }
+
+.btn-ghost { background: transparent; color: var(--ink); padding: 0 12px; }
+.btn-ghost:hover:not(:disabled) { background: rgba(35, 57, 140, .08); }
+
+.btn-danger { background: var(--white); color: var(--red); border-color: var(--red); }
+
+.btn-big { min-height: 56px; font-size: 18px; padding: 0 28px; }
+
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row-end { justify-content: flex-end; }
+
+.field { display: grid; gap: 6px; }
+.field > span { font-size: 14px; color: var(--pencil); }
+
+input[type="text"], input[type="password"], input[type="url"], textarea {
+  width: 100%;
+  min-height: var(--tap);
+  padding: 10px 14px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  color: var(--text);
+  font: 400 17px/1.4 var(--font-ui);
+}
+input:focus, textarea:focus { border-color: var(--ink); outline: none; }
+textarea { min-height: 220px; resize: vertical; font-family: var(--font-lyrics); }
+
+/* ---------- Главный экран ---------- */
+
+.home-head { padding: 28px 0 20px; }
+.home-head h1 {
+  font: 600 clamp(40px, 9vw, 64px)/1 var(--font-lyrics);
+  color: var(--ink);
+  letter-spacing: -.01em;
+}
+.home-head p { margin: 12px 0 0; max-width: 34em; color: var(--pencil); }
+
+.search {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+  padding: 16px;
+  background: var(--white);
+  border: 2px solid var(--line);
+  border-radius: 14px;
+}
+.search input { border: 0; border-bottom: 2px solid var(--ink-soft); border-radius: 0; font-size: 19px; padding-left: 2px; }
+.search input:focus { border-bottom-color: var(--ink); }
+.search-alt { margin-top: 10px; font-size: 15px; }
+.search-alt a { padding: 12px 0; display: inline-block; }
+
+@media (max-width: 480px) {
+  .search { grid-template-columns: 1fr; }
+}
+
+.section-title { font: 600 15px/1.2 var(--font-ui); color: var(--pencil); margin: 32px 0 12px; }
+
+.empty {
+  padding: 28px 20px;
+  border: 2px dashed var(--line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .6);
+}
+.empty h2 { font: 600 22px/1.25 var(--font-lyrics); color: var(--ink); }
+.empty ol { margin: 14px 0 18px; padding-left: 22px; }
+.empty li { margin: 4px 0; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 22px;
+  border: 1.5px solid var(--ink-soft);
+  background: var(--white);
+  color: var(--ink);
+  font: 500 15px/1 var(--font-ui);
+  cursor: pointer;
+}
+
+.songs { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.song-item a {
+  display: grid;
+  gap: 2px;
+  padding: 16px 18px;
+  background: var(--white);
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+.song-item a:hover { border-color: var(--ink-soft); }
+.song-item .t { font: 600 19px/1.25 var(--font-lyrics); color: var(--text); }
+.song-item .a { color: var(--pencil); font-size: 15px; }
+.song-item .p { margin-top: 8px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; color: var(--pencil); }
+
+/* Клетки прогресса: в каждой выученной стоит красная пятёрка */
+.marks { display: inline-flex; gap: 0; }
+.mark-cell {
+  width: 28px; height: 28px;
+  border: 1px solid var(--grid);
+  margin-left: -1px;
+  display: grid; place-items: center;
+  font: 400 22px/1 var(--font-hand);
+  color: var(--red);
+  background: var(--white);
+}
+.mark-cell:first-child { margin-left: 0; }
+
+/* ---------- Экран песни ---------- */
+
+.back { display: inline-flex; margin: 4px 0 8px -12px; }
+
+.song-head h1 { font: 600 clamp(30px, 6vw, 44px)/1.1 var(--font-lyrics); color: var(--text); }
+.song-head .meta { margin: 6px 0 0; color: var(--pencil); }
+
+.song-actions { margin: 20px 0 8px; }
+
+.frags { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.frag {
+  display: grid;
+  grid-template-columns: 34px 1fr auto;
+  gap: 4px 12px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+.frag .grade { font: 400 30px/1 var(--font-hand); color: var(--red); text-align: center; }
+.frag .grade.empty-grade { color: var(--line); }
+.frag .name { font-weight: 600; }
+.frag .first { color: var(--pencil); font-family: var(--font-lyrics); font-size: 15px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.frag .info { min-width: 0; }
+.frag .state { font-size: 14px; color: var(--pencil); text-align: right; }
+.frag.repeat .name { color: var(--pencil); font-weight: 500; }
+
+.panel {
+  margin-top: 24px;
+  padding: 18px;
+  background: var(--white);
+  border: 2px solid var(--line);
+  border-radius: 14px;
+  display: grid;
+  gap: 12px;
+}
+.panel h2 { font-size: 18px; }
+.panel p { margin: 0; }
+
+.confirm { display: grid; gap: 10px; padding: 14px; border: 2px solid var(--red); border-radius: 12px; background: #FFF6F5; }
+
+.versions { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 8px; }
+.versions button {
+  width: 100%;
+  text-align: left;
+  min-height: 56px;
+  padding: 10px 14px;
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  font: 400 16px/1.35 var(--font-ui);
+  color: var(--text);
+  cursor: pointer;
+}
+.versions button:hover { border-color: var(--ink-soft); }
+.versions .cur { border-color: var(--ink); }
+.versions small { color: var(--pencil); display: block; }
+
+/* ---------- Экран учёбы ---------- */
+
+body.learning .topbar { display: none; }
+body.learning main { max-width: none; padding: 0; }
+
+.learn {
+  height: 100dvh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 8px var(--gutter) max(12px, env(safe-area-inset-bottom));
+}
+@media (min-width: 760px) {
+  .learn { padding-left: 96px; padding-right: 32px; }
+}
+
+.learn-top {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.learn-top .title { flex: 1; min-width: 0; }
+.learn-top .title b { display: block; font-size: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.learn-top .title span { font-size: 14px; color: var(--pencil); }
+
+.steps { display: flex; gap: 6px; align-items: center; }
+.steps i {
+  width: 12px; height: 12px; border-radius: 50%;
+  border: 2px solid var(--ink-soft);
+  display: block;
+}
+.steps i.on { background: var(--ink); border-color: var(--ink); }
+
+.lyrics-wrap { min-height: 0; overflow: hidden; display: flex; align-items: center; padding: 8px 0; }
+.lyrics {
+  width: 100%;
+  font-family: var(--font-lyrics);
+  line-height: 1.5;
+  color: var(--text);
+}
+.lyrics p { margin: 0; }
+.lyrics .stage-note { font: 400 14px/1.4 var(--font-ui); color: var(--pencil); margin-bottom: .6em; }
+
+/* Скрытые слова: место под слово остаётся, буквы прячутся */
+.w { border-radius: 2px; }
+.w.hide { color: transparent; border-bottom: 2px solid var(--ink-soft); }
+.w.first .rest { color: transparent; border-bottom: 2px solid var(--ink-soft); }
+.lyrics.all-hidden .w { color: transparent; border-bottom: 2px solid var(--line); }
+.lyrics.all-hidden .w .rest { border-bottom: 0; }
+.lyrics.peek .w, .lyrics.peek .w .rest { color: var(--ink); border-bottom-color: transparent; }
+
+.learn-bottom {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px 16px;
+  align-items: end;
+  padding-top: 8px;
+}
+.player-box {
+  width: 200px;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #DCE3EC;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  font-size: 13px;
+  color: var(--pencil);
+  padding: 0;
+}
+.player-box iframe { width: 100%; height: 100%; border: 0; display: block; }
+.player-box .msg { padding: 8px; }
+
+.controls { display: grid; gap: 8px; }
+.controls .repeat { gap: 6px; font-size: 14px; color: var(--pencil); }
+.controls .repeat .btn { flex: 0 0 auto; min-height: 44px; padding: 0 12px; font-size: 15px; }
+.player-note { margin: 0; font-size: 14px; line-height: 1.4; color: var(--red); }
+
+/* На главном экране большой заголовок уже есть, маленький в шапке не нужен */
+body.home .brand { visibility: hidden; }
+.controls .row { gap: 8px; }
+.controls .btn { flex: 1 1 auto; }
+
+@media (max-width: 620px) {
+  .learn-bottom { grid-template-columns: 1fr; }
+  .player-box { justify-self: center; width: min(100%, calc(15dvh * 16 / 9)); min-width: 200px; }
+  .player-box.no-video { width: 100%; aspect-ratio: auto; min-height: 40px; }
+  .player-box .msg { padding: 6px 8px; }
+  .controls .btn { padding: 0 12px; }
+}
+
+/* Пятёрка за выученный фрагмент: единственное «громкое» место */
+.done {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+}
+.done .five {
+  font: 400 140px/1 var(--font-hand);
+  color: var(--red);
+  transform: rotate(-8deg);
+  animation: stamp .45s cubic-bezier(.2, 1.4, .4, 1) both;
+}
+.done h2 { font: 600 26px/1.2 var(--font-lyrics); color: var(--ink); }
+@keyframes stamp {
+  from { transform: rotate(-20deg) scale(1.8); opacity: 0; }
+  to   { transform: rotate(-8deg) scale(1); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .done .five { animation: none; }
+  .btn { transition: none; }
+}
+
+/* ---------- Окно «Данные» ---------- */
+
+dialog {
+  border: 0;
+  border-radius: 16px;
+  padding: 0;
+  width: min(520px, calc(100vw - 2 * var(--gutter)));
+  max-height: calc(100dvh - 32px);
+  color: var(--text);
+  box-shadow: 0 20px 60px rgba(28, 34, 51, .25);
+}
+dialog::backdrop { background: rgba(28, 34, 51, .35); }
+.sheet { display: grid; gap: 14px; padding: 22px; }
+.sheet h2 { font: 600 24px/1.2 var(--font-lyrics); color: var(--ink); }
+.sheet h3 { font-size: 17px; margin-top: 8px; }
+.sheet p { margin: 0; }
+
+/* ---------- Подсказка внизу ---------- */
+
+#toast {
+  position: fixed;
+  left: 50%;
+  bottom: 24px;
+  transform: translateX(-50%);
+  max-width: calc(100vw - 32px);
+  padding: 12px 18px;
+  border-radius: 12px;
+  background: var(--text);
+  color: var(--white);
+  font-size: 15px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+  z-index: 10;
+}
+#toast.show { opacity: 1; }
+
+.loading { padding: 40px 0; color: var(--pencil); }
+.error-box { padding: 16px; border: 2px solid var(--red); border-radius: 12px; background: #FFF6F5; margin-top: 16px; }
+.error-box p { margin: 0 0 10px; }
+
+/* На экране учёбы подсказка сверху, чтобы не закрывать кнопку «Помню, дальше» */
+body.learning #toast { bottom: auto; top: 12px; }
+
+/* Плеер YouTube живёт в одном «доке» поверх места под видео и не пересоздаётся между фрагментами */
+#player-dock {
+  position: fixed;
+  z-index: 5;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
+}
+#player-dock.off { left: -10000px !important; top: 0 !important; visibility: hidden; }
+#player-dock iframe { width: 100%; height: 100%; border: 0; display: block; }
+
+/* Ручная поправка границ фрагмента */
+.bounds-info { margin: 0; font-size: 14px; line-height: 1.4; color: var(--pencil); }
+.learn-top #bounds-toggle { padding: 0 10px; }
+
+/* Деление на фрагменты: граница между фрагментами как черта красной ручкой */
+.frags-head { justify-content: space-between; margin-top: 32px; }
+.frags-head .section-title { margin: 0; }
+.split { margin-top: 16px; }
+.split-frag { padding: 14px 18px; background: var(--white); border: 2px solid var(--line); border-radius: 14px; }
+.split-frag h3 { font-size: 17px; margin-bottom: 8px; }
+.split-frag h3 .muted { font-weight: 400; font-size: 14px; }
+.split-lines p { margin: 0; padding: 3px 6px; border-radius: 6px; font: 400 17px/1.45 var(--font-lyrics); }
+.split-lines p.moved { background: #FFF1B8; }
+.boundary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 0;
+  margin: 4px 0;
+  border-top: 2px dashed var(--margin);
+}
+.boundary .btn { flex: 1 1 220px; font-size: 15px; padding: 0 12px; }
+.split-actions { margin-top: 20px; }
+.boundary .merge { flex-basis: 100%; }
+
+/* Повторы припева теперь полноценные шаги учёбы, не приглушаем их */
+.frag.repeat .name { color: var(--text); font-weight: 600; }
+
+/* Длинная первая строка фрагмента обрезается многоточием, а не вылезает за край телефона */
+.frag { grid-template-columns: 34px minmax(0, 1fr) auto; }
+.frag .info { min-width: 0; overflow: hidden; }
+.frag .info .name, .frag .info .first { display: block; }
+.frag .info br { display: none; }

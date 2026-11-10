@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Наизусть</title>
+  <meta name="description" content="Учим песню наизусть по куплетам и припевам под музыку.">
+  <meta name="theme-color" content="#F5F7F4">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F5F7F4'/%3E%3Ctext x='16' y='25' font-size='24' text-anchor='middle' fill='%23C42F2A' font-family='cursive'%3E5%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=Literata:opsz,wght@7..72,400;7..72,600&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=9">
+</head>
+<body>
+  <!-- Шапка: название и кнопка «Данные» -->
+  <header class="topbar">
+    <a class="brand" href="#/">Наизусть</a>
+    <button class="btn btn-ghost" id="open-data" type="button">Данные</button>
+  </header>
+
+  <!-- Сюда app.js рисует текущий экран -->
+  <main id="app" tabindex="-1"></main>
+
+  <!-- Окно «Данные»: копия данных и ключ YouTube -->
+  <dialog id="data-dialog" aria-labelledby="data-title">
+    <form method="dialog" class="sheet">
+      <h2 id="data-title">Данные</h2>
+      <p class="muted">Песни и прогресс хранятся только в этом браузере. Скачай копию, чтобы не потерять их при очистке браузера.</p>
+      <div class="row">
+        <button class="btn btn-primary" id="export-btn" type="button">Скачать копию данных</button>
+        <button class="btn btn-outline" id="import-btn" type="button">Загрузить копию</button>
+        <input type="file" id="import-file" accept="application/json,.json" hidden>
+      </div>
+
+      <h3>Ключ YouTube</h3>
+      <p class="muted">С ключом приложение само находит музыку. Без ключа ссылку на видео вставляешь сам. Ключ хранится только в этом браузере и в копию данных не попадает.</p>
+      <label class="field">
+        <span>Ключ</span>
+        <input id="yt-key" type="password" autocomplete="off" spellcheck="false" placeholder="Вставь ключ">
+      </label>
+      <div class="row">
+        <button class="btn btn-outline" id="save-key" type="button">Сохранить ключ</button>
+        <button class="btn btn-ghost" id="clear-key" type="button">Убрать ключ</button>
+      </div>
+
+      <div class="row row-end">
+        <button class="btn btn-ghost" value="close">Закрыть</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js?v=9"></script>
+</body>
+</html>
