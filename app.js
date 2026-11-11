@@ -608,7 +608,7 @@ function viewHome() {
   const songs = data.songs;
   app.innerHTML = `
     <section class="home-head">
-      <h1>Наизусть</h1>
+      <h1>Наизусть: учим песни</h1>
       <p>Напиши исполнителя и название. Приложение найдёт текст, разделит песню на куплеты и припевы и поможет выучить каждый под музыку.</p>
     </section>
     <form class="search" id="search-form" role="search">
