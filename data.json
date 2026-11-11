@@ -1,0 +1,182 @@
+{
+  "updated": "2026-11-11T07:48:21+00:00",
+  "updated_msk": "11.11.2026 10:48",
+  "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
+  "songs": [
+    {
+      "position": 1,
+      "artist": "МАЯК X",
+      "title": "Украсть тебя",
+      "query": "МАЯК Украсть тебя",
+      "synced": false
+    },
+    {
+      "position": 2,
+      "artist": "VILLIAN & madk1d",
+      "title": "ДИНАСТИЯ",
+      "query": "VILLIAN ДИНАСТИЯ",
+      "synced": true
+    },
+    {
+      "position": 3,
+      "artist": "By Индия, Xcho & МОТ",
+      "title": "Шадэ",
+      "query": "By Индия Шадэ",
+      "synced": true
+    },
+    {
+      "position": 4,
+      "artist": "ENZRO",
+      "title": "Ты не бойся ночи",
+      "query": "ENZRO Ты не бойся ночи",
+      "synced": true
+    },
+    {
+      "position": 5,
+      "artist": "Koss & ПЛУТТО",
+      "title": "Земляк",
+      "query": "Koss Земляк",
+      "synced": false
+    },
+    {
+      "position": 6,
+      "artist": "BEARWOLF",
+      "title": "Феникс",
+      "query": "BEARWOLF Феникс",
+      "synced": true
+    },
+    {
+      "position": 7,
+      "artist": "Татьяна Буланова",
+      "title": "Ледяное сердце",
+      "query": "Татьяна Буланова Ледяное сердце",
+      "synced": true
+    },
+    {
+      "position": 8,
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
+      "title": "Movin' To The Sun",
+      "query": "HUGEL Movin' To The Sun",
+      "synced": true
+    },
+    {
+      "position": 9,
+      "artist": "Toxi$ & Дора",
+      "title": "ЗНАК",
+      "query": "Toxi$ ЗНАК",
+      "synced": true
+    },
+    {
+      "position": 10,
+      "artist": "Kimo Sounds",
+      "title": "Rise Slow",
+      "query": "Kimo Sounds Rise Slow",
+      "synced": true
+    },
+    {
+      "position": 11,
+      "artist": "Zivert",
+      "title": "GAZ",
+      "query": "Zivert GAZ",
+      "synced": true
+    },
+    {
+      "position": 12,
+      "artist": "Ankara Echoes",
+      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "synced": true
+    },
+    {
+      "position": 13,
+      "artist": "madk1d",
+      "title": "так п***й",
+      "query": "madk1d так п***й",
+      "synced": false
+    },
+    {
+      "position": 14,
+      "artist": "Icegergert & Zivert",
+      "title": "БАНК",
+      "query": "Icegergert БАНК",
+      "synced": true
+    },
+    {
+      "position": 15,
+      "artist": "Miyagi & Эндшпиль",
+      "title": "I Got Love (feat. Рем Дигга)",
+      "query": "Miyagi I Got Love",
+      "synced": true
+    },
+    {
+      "position": 16,
+      "artist": "HOLLYFLAME",
+      "title": "Тону",
+      "query": "HOLLYFLAME Тону",
+      "synced": true
+    },
+    {
+      "position": 17,
+      "artist": "BTS",
+      "title": "SWIM",
+      "query": "BTS SWIM",
+      "synced": true
+    },
+    {
+      "position": 18,
+      "artist": "SAYAN",
+      "title": "Мальборо",
+      "query": "SAYAN Мальборо",
+      "synced": true
+    },
+    {
+      "position": 19,
+      "artist": "Temper City",
+      "title": "Self Aware",
+      "query": "Temper City Self Aware",
+      "synced": true
+    },
+    {
+      "position": 20,
+      "artist": "Баста & Моя Мишель",
+      "title": "Если я буду танцевать",
+      "query": "Баста Если я буду танцевать",
+      "synced": false
+    },
+    {
+      "position": 21,
+      "artist": "Jakone & Kiliana",
+      "title": "Асфальт",
+      "query": "Jakone Асфальт",
+      "synced": true
+    },
+    {
+      "position": 22,
+      "artist": "ARTIK & ASTI",
+      "title": "Лампочки",
+      "query": "ARTIK Лампочки",
+      "synced": true
+    },
+    {
+      "position": 23,
+      "artist": "madk1d & VILLIAN",
+      "title": "8 миля",
+      "query": "madk1d 8 миля",
+      "synced": true
+    },
+    {
+      "position": 24,
+      "artist": "NAVAI",
+      "title": "Сгореть",
+      "query": "NAVAI Сгореть",
+      "synced": true
+    },
+    {
+      "position": 25,
+      "artist": "Ваня Дмитриенко",
+      "title": "Шёлк",
+      "query": "Ваня Дмитриенко Шёлк",
+      "synced": true
+    }
+  ]
+}

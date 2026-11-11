@@ -2,15 +2,15 @@
 //
 // ВАЖНО: при КАЖДОЙ выкладке повышать VERSION (v1 → v2 → v3 ...)
 // и держать в SHELL те же ?v=, что в index.html. Иначе телефон может показать старую версию.
-const VERSION = 'v1';
+const VERSION = 'v2';
 
 const CACHE = 'naizust-' + VERSION;
 const FONTS = 'naizust-fonts';
 const SHELL = [
   './',
   'index.html',
-  'style.css?v=10',
-  'app.js?v=10',
+  'style.css?v=11',
+  'app.js?v=11',
   'manifest.webmanifest',
   'icons/icon.svg',
   'icons/icon-192.png',

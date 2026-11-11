@@ -236,6 +236,22 @@ textarea { min-height: 220px; resize: vertical; font-family: var(--font-lyrics);
 }
 .mark-cell:first-child { margin-left: 0; }
 
+/* Чарт «Что сейчас слушают» (данные из data.json, обновляются раз в сутки) */
+.chart { margin-bottom: 32px; }
+.chart-meta { margin: -6px 0 12px; font-size: 14px; color: var(--pencil); }
+.chart-list { list-style: none; margin: 0; padding: 0; background: var(--white); border: 2px solid var(--line); border-radius: 14px; }
+.chart-item { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 14px; border-top: 1px solid var(--grid); }
+.chart-item:first-child { border-top: 0; }
+.chart-item .n { flex: 0 0 26px; font: 400 22px/1 var(--font-hand); color: var(--red); text-align: center; }
+.chart-item .ta { flex: 1; min-width: 0; display: grid; }
+.chart-item .t { font: 600 16px/1.25 var(--font-lyrics); color: var(--text); overflow-wrap: anywhere; }
+.chart-item .a { font-size: 14px; color: var(--pencil); overflow-wrap: anywhere; }
+.chart-item .btn { flex: 0 0 auto; min-height: 40px; padding: 0 14px; font-size: 15px; }
+.chart-more { margin-top: 10px; }
+.chart-more summary { cursor: pointer; color: var(--ink); font-weight: 500; padding: 10px 2px; min-height: 44px; }
+.chart-more .chart-list { margin-top: 4px; }
+.chart-note { margin: 10px 0 0; }
+
 /* ---------- Экран песни ---------- */
 
 .back { display: inline-flex; margin: 4px 0 8px -12px; }

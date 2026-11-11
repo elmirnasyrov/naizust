@@ -630,11 +630,65 @@ function viewHome() {
           <p class="muted">Попробуй с одной из этих:</p>
           <div class="chips">${EXAMPLES.map(q => `<button class="chip" type="button" data-q="${esc(q)}">${esc(q)}</button>`).join('')}</div>
         </div>`}
+    <section class="chart" id="chart" aria-live="polite"><p class="muted">Загружаю чарт…</p></section>
   `;
   const form = document.getElementById('search-form');
   const input = document.getElementById('q');
   form.addEventListener('submit', e => { e.preventDefault(); doSearch(input.value); });
   app.querySelectorAll('.chip').forEach(b => b.addEventListener('click', () => { input.value = b.dataset.q; doSearch(b.dataset.q); }));
+  renderChart();
+}
+
+// ---------- Чарт «Что сейчас слушают» ----------
+// data.json раз в сутки обновляет GitHub (fetch.py + .github/workflows/update.yml).
+// Загружаем один раз за открытие приложения; при ошибке пробуем снова при следующем показе.
+let chartLoad = null;
+const CHART_SHOWN = 10;
+
+function loadChart() {
+  if (!chartLoad) {
+    chartLoad = fetch('data.json', { cache: 'no-cache' })
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(d => { if (!d || !Array.isArray(d.songs) || !d.songs.length) throw new Error('пустой чарт'); return d; })
+      .catch(e => { chartLoad = null; throw e; });
+  }
+  return chartLoad;
+}
+
+async function renderChart() {
+  const box = document.getElementById('chart');
+  if (!box) return;
+  let d;
+  try {
+    d = await loadChart();
+  } catch (e) {
+    if (!box.isConnected) return;
+    box.innerHTML = `<h2 class="section-title">Что сейчас слушают</h2>
+      <div class="error-box"><p>Чарт сейчас не загрузился. Проверь интернет и обнови страницу. Поиск и твои песни работают как обычно.</p></div>`;
+    return;
+  }
+  if (!box.isConnected) return; // пока грузили, человек ушёл на другой экран
+  const item = s => `<li class="chart-item">
+      <span class="n">${esc(s.position)}</span>
+      <span class="ta"><span class="t">${esc(s.title)}</span><span class="a">${esc(s.artist)}</span></span>
+      ${s.synced === false
+        ? `<button class="btn btn-ghost chart-learn" type="button" data-q="${esc(s.query)}" title="В базе нет времени строк: музыка будет играть целиком">Найти</button>`
+        : `<button class="btn btn-outline chart-learn" type="button" data-q="${esc(s.query)}">Учить</button>`}
+    </li>`;
+  const rest = d.songs.slice(CHART_SHOWN);
+  box.innerHTML = `
+    <h2 class="section-title">Что сейчас слушают</h2>
+    <p class="chart-meta">${esc(d.source || 'Чарт')} · обновлено ${esc(d.updated_msk || '')} МСК</p>
+    <ol class="chart-list">${d.songs.slice(0, CHART_SHOWN).map(item).join('')}</ol>
+    ${rest.length ? `<details class="chart-more"><summary>Показать ещё ${rest.length}</summary>
+      <ol class="chart-list">${rest.map(item).join('')}</ol></details>` : ''}
+    ${d.songs.some(s => s.synced === false) ? `<p class="chart-meta chart-note">«Учить»: в базе текстов есть время строк, музыка нарежется по фрагментам. «Найти»: времени строк нет, текст может не найтись.</p>` : ''}`;
+  box.querySelectorAll('.chart-learn').forEach(b => b.addEventListener('click', () => {
+    const input = document.getElementById('q');
+    input.value = b.dataset.q;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    doSearch(b.dataset.q);
+  }));
 }
 
 async function doSearch(q) {
