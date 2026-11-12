@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T07:52:14+00:00",
-  "updated_msk": "11.11.2026 10:52",
+  "updated": "2026-11-12T05:33:43+00:00",
+  "updated_msk": "12.11.2026 08:33",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -26,17 +26,17 @@
     },
     {
       "position": 4,
-      "artist": "ENZRO",
-      "title": "Ты не бойся ночи",
-      "query": "ENZRO Ты не бойся ночи",
-      "synced": true
-    },
-    {
-      "position": 5,
       "artist": "Koss & ПЛУТТО",
       "title": "Земляк",
       "query": "Koss Земляк",
       "synced": false
+    },
+    {
+      "position": 5,
+      "artist": "ENZRO",
+      "title": "Ты не бойся ночи",
+      "query": "ENZRO Ты не бойся ночи",
+      "synced": true
     },
     {
       "position": 6,
@@ -54,16 +54,16 @@
     },
     {
       "position": 8,
-      "artist": "HUGEL, Imael Angel & Ultra Naté",
-      "title": "Movin' To The Sun",
-      "query": "HUGEL Movin' To The Sun",
+      "artist": "Toxi$ & Дора",
+      "title": "ЗНАК",
+      "query": "Toxi$ ЗНАК",
       "synced": true
     },
     {
       "position": 9,
-      "artist": "Toxi$ & Дора",
-      "title": "ЗНАК",
-      "query": "Toxi$ ЗНАК",
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
+      "title": "Movin' To The Sun",
+      "query": "HUGEL Movin' To The Sun",
       "synced": true
     },
     {
@@ -82,30 +82,30 @@
     },
     {
       "position": 12,
-      "artist": "Ankara Echoes",
-      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "synced": true
-    },
-    {
-      "position": 13,
       "artist": "madk1d",
       "title": "так п***й",
       "query": "madk1d так п***й",
       "synced": false
     },
     {
+      "position": 13,
+      "artist": "Ankara Echoes",
+      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "synced": true
+    },
+    {
       "position": 14,
-      "artist": "Icegergert & Zivert",
-      "title": "БАНК",
-      "query": "Icegergert БАНК",
+      "artist": "Miyagi & Эндшпиль",
+      "title": "I Got Love (feat. Рем Дигга)",
+      "query": "Miyagi I Got Love",
       "synced": true
     },
     {
       "position": 15,
-      "artist": "Miyagi & Эндшпиль",
-      "title": "I Got Love (feat. Рем Дигга)",
-      "query": "Miyagi I Got Love",
+      "artist": "Icegergert & Zivert",
+      "title": "БАНК",
+      "query": "Icegergert БАНК",
       "synced": true
     },
     {
@@ -117,31 +117,31 @@
     },
     {
       "position": 17,
-      "artist": "BTS",
-      "title": "SWIM",
-      "query": "BTS SWIM",
-      "synced": true
-    },
-    {
-      "position": 18,
-      "artist": "SAYAN",
-      "title": "Мальборо",
-      "query": "SAYAN Мальборо",
-      "synced": true
-    },
-    {
-      "position": 19,
       "artist": "Temper City",
       "title": "Self Aware",
       "query": "Temper City Self Aware",
       "synced": true
     },
     {
+      "position": 18,
+      "artist": "BTS",
+      "title": "SWIM",
+      "query": "BTS SWIM",
+      "synced": true
+    },
+    {
+      "position": 19,
+      "artist": "SAYAN",
+      "title": "Мальборо",
+      "query": "SAYAN Мальборо",
+      "synced": true
+    },
+    {
       "position": 20,
-      "artist": "Баста & Моя Мишель",
-      "title": "Если я буду танцевать",
-      "query": "Баста Если я буду танцевать",
-      "synced": false
+      "artist": "madk1d & VILLIAN",
+      "title": "8 миля",
+      "query": "madk1d 8 миля",
+      "synced": true
     },
     {
       "position": 21,
@@ -152,30 +152,30 @@
     },
     {
       "position": 22,
+      "artist": "Баста & Моя Мишель",
+      "title": "Если я буду танцевать",
+      "query": "Баста Если я буду танцевать",
+      "synced": false
+    },
+    {
+      "position": 23,
+      "artist": "By Индия",
+      "title": "спектакль",
+      "query": "By Индия спектакль",
+      "synced": true
+    },
+    {
+      "position": 24,
       "artist": "ARTIK & ASTI",
       "title": "Лампочки",
       "query": "ARTIK Лампочки",
       "synced": true
     },
     {
-      "position": 23,
-      "artist": "madk1d & VILLIAN",
-      "title": "8 миля",
-      "query": "madk1d 8 миля",
-      "synced": true
-    },
-    {
-      "position": 24,
+      "position": 25,
       "artist": "NAVAI",
       "title": "Сгореть",
       "query": "NAVAI Сгореть",
-      "synced": true
-    },
-    {
-      "position": 25,
-      "artist": "Ваня Дмитриенко",
-      "title": "Шёлк",
-      "query": "Ваня Дмитриенко Шёлк",
       "synced": true
     }
   ]
