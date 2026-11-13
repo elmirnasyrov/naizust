@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T05:33:43+00:00",
-  "updated_msk": "12.11.2026 08:33",
+  "updated": "2026-11-13T05:32:49+00:00",
+  "updated_msk": "13.11.2026 08:32",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -47,9 +47,9 @@
     },
     {
       "position": 7,
-      "artist": "Татьяна Буланова",
-      "title": "Ледяное сердце",
-      "query": "Татьяна Буланова Ледяное сердце",
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
+      "title": "Movin' To The Sun",
+      "query": "HUGEL Movin' To The Sun",
       "synced": true
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "position": 9,
-      "artist": "HUGEL, Imael Angel & Ultra Naté",
-      "title": "Movin' To The Sun",
-      "query": "HUGEL Movin' To The Sun",
+      "artist": "Татьяна Буланова",
+      "title": "Ледяное сердце",
+      "query": "Татьяна Буланова Ледяное сердце",
       "synced": true
     },
     {
@@ -89,16 +89,16 @@
     },
     {
       "position": 13,
-      "artist": "Ankara Echoes",
-      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "artist": "Miyagi & Эндшпиль",
+      "title": "I Got Love (feat. Рем Дигга)",
+      "query": "Miyagi I Got Love",
       "synced": true
     },
     {
       "position": 14,
-      "artist": "Miyagi & Эндшпиль",
-      "title": "I Got Love (feat. Рем Дигга)",
-      "query": "Miyagi I Got Love",
+      "artist": "Ankara Echoes",
+      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
       "synced": true
     },
     {
@@ -117,16 +117,16 @@
     },
     {
       "position": 17,
-      "artist": "Temper City",
-      "title": "Self Aware",
-      "query": "Temper City Self Aware",
+      "artist": "BTS",
+      "title": "SWIM",
+      "query": "BTS SWIM",
       "synced": true
     },
     {
       "position": 18,
-      "artist": "BTS",
-      "title": "SWIM",
-      "query": "BTS SWIM",
+      "artist": "Temper City",
+      "title": "Self Aware",
+      "query": "Temper City Self Aware",
       "synced": true
     },
     {
@@ -152,10 +152,10 @@
     },
     {
       "position": 22,
-      "artist": "Баста & Моя Мишель",
-      "title": "Если я буду танцевать",
-      "query": "Баста Если я буду танцевать",
-      "synced": false
+      "artist": "ARTIK & ASTI",
+      "title": "Лампочки",
+      "query": "ARTIK Лампочки",
+      "synced": true
     },
     {
       "position": 23,
@@ -166,16 +166,16 @@
     },
     {
       "position": 24,
-      "artist": "ARTIK & ASTI",
-      "title": "Лампочки",
-      "query": "ARTIK Лампочки",
+      "artist": "NAVAI",
+      "title": "Сгореть",
+      "query": "NAVAI Сгореть",
       "synced": true
     },
     {
       "position": 25,
-      "artist": "NAVAI",
-      "title": "Сгореть",
-      "query": "NAVAI Сгореть",
+      "artist": "Света",
+      "title": "Мои слёзы",
+      "query": "Света Мои слёзы",
       "synced": true
     }
   ]
