@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-13T05:32:49+00:00",
-  "updated_msk": "13.11.2026 08:32",
+  "updated": "2026-11-14T05:26:03+00:00",
+  "updated_msk": "14.11.2026 08:26",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -82,9 +82,9 @@
     },
     {
       "position": 12,
-      "artist": "madk1d",
-      "title": "так п***й",
-      "query": "madk1d так п***й",
+      "artist": "Zivert",
+      "title": "не святая",
+      "query": "Zivert не святая",
       "synced": false
     },
     {
@@ -96,86 +96,86 @@
     },
     {
       "position": 14,
-      "artist": "Ankara Echoes",
-      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "synced": true
+      "artist": "ANNA ASTI",
+      "title": "NPC",
+      "query": "ANNA ASTI NPC",
+      "synced": false
     },
     {
       "position": 15,
+      "artist": "madk1d",
+      "title": "так п***й",
+      "query": "madk1d так п***й",
+      "synced": false
+    },
+    {
+      "position": 16,
       "artist": "Icegergert & Zivert",
       "title": "БАНК",
       "query": "Icegergert БАНК",
       "synced": true
     },
     {
-      "position": 16,
+      "position": 17,
+      "artist": "Ankara Echoes",
+      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "synced": true
+    },
+    {
+      "position": 18,
       "artist": "HOLLYFLAME",
       "title": "Тону",
       "query": "HOLLYFLAME Тону",
       "synced": true
     },
     {
-      "position": 17,
-      "artist": "BTS",
-      "title": "SWIM",
-      "query": "BTS SWIM",
-      "synced": true
-    },
-    {
-      "position": 18,
-      "artist": "Temper City",
-      "title": "Self Aware",
-      "query": "Temper City Self Aware",
-      "synced": true
-    },
-    {
       "position": 19,
-      "artist": "SAYAN",
-      "title": "Мальборо",
-      "query": "SAYAN Мальборо",
-      "synced": true
-    },
-    {
-      "position": 20,
-      "artist": "madk1d & VILLIAN",
-      "title": "8 миля",
-      "query": "madk1d 8 миля",
-      "synced": true
-    },
-    {
-      "position": 21,
-      "artist": "Jakone & Kiliana",
-      "title": "Асфальт",
-      "query": "Jakone Асфальт",
-      "synced": true
-    },
-    {
-      "position": 22,
-      "artist": "ARTIK & ASTI",
-      "title": "Лампочки",
-      "query": "ARTIK Лампочки",
-      "synced": true
-    },
-    {
-      "position": 23,
-      "artist": "By Индия",
-      "title": "спектакль",
-      "query": "By Индия спектакль",
-      "synced": true
-    },
-    {
-      "position": 24,
       "artist": "NAVAI",
       "title": "Сгореть",
       "query": "NAVAI Сгореть",
       "synced": true
     },
     {
-      "position": 25,
+      "position": 20,
       "artist": "Света",
       "title": "Мои слёзы",
       "query": "Света Мои слёзы",
+      "synced": true
+    },
+    {
+      "position": 21,
+      "artist": "SAYAN",
+      "title": "Мальборо",
+      "query": "SAYAN Мальборо",
+      "synced": true
+    },
+    {
+      "position": 22,
+      "artist": "By Индия",
+      "title": "спектакль",
+      "query": "By Индия спектакль",
+      "synced": true
+    },
+    {
+      "position": 23,
+      "artist": "BTS",
+      "title": "SWIM",
+      "query": "BTS SWIM",
+      "synced": true
+    },
+    {
+      "position": 24,
+      "artist": "Баста & Моя Мишель",
+      "title": "Если я буду танцевать",
+      "query": "Баста Если я буду танцевать",
+      "synced": false
+    },
+    {
+      "position": 25,
+      "artist": "Temper City",
+      "title": "Self Aware",
+      "query": "Temper City Self Aware",
       "synced": true
     }
   ]
