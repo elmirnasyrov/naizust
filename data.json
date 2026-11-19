@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T05:36:05+00:00",
-  "updated_msk": "18.11.2026 08:36",
+  "updated": "2026-11-19T05:35:45+00:00",
+  "updated_msk": "19.11.2026 08:35",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -33,16 +33,16 @@
     },
     {
       "position": 5,
-      "artist": "ENZRO",
-      "title": "Ты не бойся ночи",
-      "query": "ENZRO Ты не бойся ночи",
+      "artist": "Zivert",
+      "title": "не святая",
+      "query": "Zivert не святая",
       "synced": true
     },
     {
       "position": 6,
-      "artist": "Zivert",
-      "title": "не святая",
-      "query": "Zivert не святая",
+      "artist": "ENZRO",
+      "title": "Ты не бойся ночи",
+      "query": "ENZRO Ты не бойся ночи",
       "synced": true
     },
     {
@@ -82,100 +82,100 @@
     },
     {
       "position": 12,
+      "artist": "Ноггано",
+      "title": "Триггер",
+      "query": "Ноггано Триггер",
+      "synced": false
+    },
+    {
+      "position": 13,
       "artist": "Zivert",
       "title": "GAZ",
       "query": "Zivert GAZ",
       "synced": true
     },
     {
-      "position": 13,
+      "position": 14,
       "artist": "NEXTIME & Даник",
       "title": "КИС Ю",
       "query": "NEXTIME КИС Ю",
       "synced": true
     },
     {
-      "position": 14,
+      "position": 15,
       "artist": "madk1d",
       "title": "так п***й",
       "query": "madk1d так п***й",
       "synced": false
     },
     {
-      "position": 15,
-      "artist": "ANNA ASTI",
-      "title": "NPC",
-      "query": "ANNA ASTI NPC",
-      "synced": true
-    },
-    {
       "position": 16,
-      "artist": "Icegergert & Zivert",
-      "title": "БАНК",
-      "query": "Icegergert БАНК",
-      "synced": true
-    },
-    {
-      "position": 17,
       "artist": "Miyagi & Эндшпиль",
       "title": "I Got Love (feat. Рем Дигга)",
       "query": "Miyagi I Got Love",
       "synced": true
     },
     {
-      "position": 18,
+      "position": 17,
       "artist": "NAVAI",
       "title": "Сгореть",
       "query": "NAVAI Сгореть",
       "synced": true
     },
     {
+      "position": 18,
+      "artist": "Icegergert & Zivert",
+      "title": "БАНК",
+      "query": "Icegergert БАНК",
+      "synced": true
+    },
+    {
       "position": 19,
+      "artist": "Ноггано",
+      "title": "Похороны",
+      "query": "Ноггано Похороны",
+      "synced": false
+    },
+    {
+      "position": 20,
       "artist": "Ankara Echoes",
       "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
       "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
       "synced": true
     },
     {
-      "position": 20,
+      "position": 21,
+      "artist": "ANNA ASTI",
+      "title": "NPC",
+      "query": "ANNA ASTI NPC",
+      "synced": true
+    },
+    {
+      "position": 22,
+      "artist": "Ноггано",
+      "title": "Стосороковой",
+      "query": "Ноггано Стосороковой",
+      "synced": false
+    },
+    {
+      "position": 23,
       "artist": "HOLLYFLAME",
       "title": "Тону",
       "query": "HOLLYFLAME Тону",
       "synced": true
     },
     {
-      "position": 21,
+      "position": 24,
       "artist": "madk1d & VILLIAN",
       "title": "8 миля",
       "query": "madk1d 8 миля",
       "synced": true
     },
     {
-      "position": 22,
-      "artist": "By Индия",
-      "title": "спектакль",
-      "query": "By Индия спектакль",
-      "synced": true
-    },
-    {
-      "position": 23,
-      "artist": "SAYAN",
-      "title": "Мальборо",
-      "query": "SAYAN Мальборо",
-      "synced": true
-    },
-    {
-      "position": 24,
-      "artist": "Jakone & Kiliana",
-      "title": "Асфальт",
-      "query": "Jakone Асфальт",
-      "synced": true
-    },
-    {
       "position": 25,
-      "artist": "Баста & Моя Мишель",
-      "title": "Если я буду танцевать",
-      "query": "Баста Если я буду танцевать",
+      "artist": "Ноггано",
+      "title": "Как вы там?",
+      "query": "Ноггано Как вы там?",
       "synced": false
     }
   ]
