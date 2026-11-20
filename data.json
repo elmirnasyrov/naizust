@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T05:35:45+00:00",
-  "updated_msk": "19.11.2026 08:35",
+  "updated": "2026-11-20T05:36:11+00:00",
+  "updated_msk": "20.11.2026 08:36",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -26,17 +26,17 @@
     },
     {
       "position": 4,
-      "artist": "Koss & ПЛУТТО",
-      "title": "Земляк",
-      "query": "Koss Земляк",
-      "synced": false
-    },
-    {
-      "position": 5,
       "artist": "Zivert",
       "title": "не святая",
       "query": "Zivert не святая",
       "synced": true
+    },
+    {
+      "position": 5,
+      "artist": "Koss & ПЛУТТО",
+      "title": "Земляк",
+      "query": "Koss Земляк",
+      "synced": false
     },
     {
       "position": 6,
@@ -82,72 +82,72 @@
     },
     {
       "position": 12,
-      "artist": "Ноггано",
-      "title": "Триггер",
-      "query": "Ноггано Триггер",
-      "synced": false
-    },
-    {
-      "position": 13,
-      "artist": "Zivert",
-      "title": "GAZ",
-      "query": "Zivert GAZ",
-      "synced": true
-    },
-    {
-      "position": 14,
       "artist": "NEXTIME & Даник",
       "title": "КИС Ю",
       "query": "NEXTIME КИС Ю",
       "synced": true
     },
     {
-      "position": 15,
-      "artist": "madk1d",
-      "title": "так п***й",
-      "query": "madk1d так п***й",
+      "position": 13,
+      "artist": "Ноггано",
+      "title": "Триггер",
+      "query": "Ноггано Триггер",
       "synced": false
     },
     {
-      "position": 16,
+      "position": 14,
+      "artist": "Zivert",
+      "title": "GAZ",
+      "query": "Zivert GAZ",
+      "synced": true
+    },
+    {
+      "position": 15,
       "artist": "Miyagi & Эндшпиль",
       "title": "I Got Love (feat. Рем Дигга)",
       "query": "Miyagi I Got Love",
       "synced": true
     },
     {
-      "position": 17,
+      "position": 16,
       "artist": "NAVAI",
       "title": "Сгореть",
       "query": "NAVAI Сгореть",
       "synced": true
     },
     {
-      "position": 18,
+      "position": 17,
       "artist": "Icegergert & Zivert",
       "title": "БАНК",
       "query": "Icegergert БАНК",
       "synced": true
     },
     {
+      "position": 18,
+      "artist": "madk1d",
+      "title": "так п***й",
+      "query": "madk1d так п***й",
+      "synced": false
+    },
+    {
       "position": 19,
+      "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
+      "title": "Flower In A Hurricane [From GTAVI: Original Score]",
+      "query": "Justice Flower In A Hurricane [From GTAVI: Original Score]",
+      "synced": true
+    },
+    {
+      "position": 20,
       "artist": "Ноггано",
       "title": "Похороны",
       "query": "Ноггано Похороны",
       "synced": false
     },
     {
-      "position": 20,
+      "position": 21,
       "artist": "Ankara Echoes",
       "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
       "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "synced": true
-    },
-    {
-      "position": 21,
-      "artist": "ANNA ASTI",
-      "title": "NPC",
-      "query": "ANNA ASTI NPC",
       "synced": true
     },
     {
@@ -159,23 +159,23 @@
     },
     {
       "position": 23,
-      "artist": "HOLLYFLAME",
-      "title": "Тону",
-      "query": "HOLLYFLAME Тону",
-      "synced": true
+      "artist": "Ноггано & Loc-Dog",
+      "title": "Гидра",
+      "query": "Ноггано Гидра",
+      "synced": false
     },
     {
       "position": 24,
-      "artist": "madk1d & VILLIAN",
-      "title": "8 миля",
-      "query": "madk1d 8 миля",
+      "artist": "ANNA ASTI",
+      "title": "NPC",
+      "query": "ANNA ASTI NPC",
       "synced": true
     },
     {
       "position": 25,
-      "artist": "Ноггано",
-      "title": "Как вы там?",
-      "query": "Ноггано Как вы там?",
+      "artist": "Ноггано & Брутто",
+      "title": "Кактус",
+      "query": "Ноггано Кактус",
       "synced": false
     }
   ]
