@@ -1,69 +1,69 @@
 {
-  "updated": "2026-11-20T05:36:11+00:00",
-  "updated_msk": "20.11.2026 08:36",
+  "updated": "2026-11-21T05:30:10+00:00",
+  "updated_msk": "21.11.2026 08:30",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
       "position": 1,
-      "artist": "МАЯК X",
-      "title": "Украсть тебя",
-      "query": "МАЯК X Украсть тебя",
-      "synced": false
-    },
-    {
-      "position": 2,
       "artist": "VILLIAN & madk1d",
       "title": "ДИНАСТИЯ",
       "query": "VILLIAN ДИНАСТИЯ",
       "synced": true
     },
     {
+      "position": 2,
+      "artist": "МАЯК X",
+      "title": "Украсть тебя",
+      "query": "МАЯК X Украсть тебя",
+      "synced": true
+    },
+    {
       "position": 3,
+      "artist": "MATRANG",
+      "title": "Но забудь",
+      "query": "MATRANG Но забудь",
+      "synced": false
+    },
+    {
+      "position": 4,
       "artist": "By Индия, Xcho & МОТ",
       "title": "Шадэ",
       "query": "By Индия Шадэ",
       "synced": true
     },
     {
-      "position": 4,
+      "position": 5,
       "artist": "Zivert",
       "title": "не святая",
       "query": "Zivert не святая",
       "synced": true
     },
     {
-      "position": 5,
+      "position": 6,
       "artist": "Koss & ПЛУТТО",
       "title": "Земляк",
       "query": "Koss Земляк",
       "synced": false
     },
     {
-      "position": 6,
+      "position": 7,
       "artist": "ENZRO",
       "title": "Ты не бойся ночи",
       "query": "ENZRO Ты не бойся ночи",
       "synced": true
     },
     {
-      "position": 7,
+      "position": 8,
       "artist": "BEARWOLF",
       "title": "Феникс",
       "query": "BEARWOLF Феникс",
       "synced": true
     },
     {
-      "position": 8,
+      "position": 9,
       "artist": "HUGEL, Imael Angel & Ultra Naté",
       "title": "Movin' To The Sun",
       "query": "HUGEL Movin' To The Sun",
-      "synced": true
-    },
-    {
-      "position": 9,
-      "artist": "Toxi$ & Дора",
-      "title": "ЗНАК",
-      "query": "Toxi$ ЗНАК",
       "synced": true
     },
     {
@@ -75,108 +75,108 @@
     },
     {
       "position": 11,
-      "artist": "Татьяна Буланова",
-      "title": "Ледяное сердце",
-      "query": "Татьяна Буланова Ледяное сердце",
+      "artist": "Toxi$ & Дора",
+      "title": "ЗНАК",
+      "query": "Toxi$ ЗНАК",
       "synced": true
     },
     {
       "position": 12,
-      "artist": "NEXTIME & Даник",
-      "title": "КИС Ю",
-      "query": "NEXTIME КИС Ю",
-      "synced": true
-    },
-    {
-      "position": 13,
-      "artist": "Ноггано",
-      "title": "Триггер",
-      "query": "Ноггано Триггер",
-      "synced": false
-    },
-    {
-      "position": 14,
-      "artist": "Zivert",
-      "title": "GAZ",
-      "query": "Zivert GAZ",
-      "synced": true
-    },
-    {
-      "position": 15,
-      "artist": "Miyagi & Эндшпиль",
-      "title": "I Got Love (feat. Рем Дигга)",
-      "query": "Miyagi I Got Love",
-      "synced": true
-    },
-    {
-      "position": 16,
-      "artist": "NAVAI",
-      "title": "Сгореть",
-      "query": "NAVAI Сгореть",
-      "synced": true
-    },
-    {
-      "position": 17,
-      "artist": "Icegergert & Zivert",
-      "title": "БАНК",
-      "query": "Icegergert БАНК",
-      "synced": true
-    },
-    {
-      "position": 18,
-      "artist": "madk1d",
-      "title": "так п***й",
-      "query": "madk1d так п***й",
-      "synced": false
-    },
-    {
-      "position": 19,
       "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
       "title": "Flower In A Hurricane [From GTAVI: Original Score]",
       "query": "Justice Flower In A Hurricane [From GTAVI: Original Score]",
       "synced": true
     },
     {
-      "position": 20,
+      "position": 13,
+      "artist": "Zivert",
+      "title": "GAZ",
+      "query": "Zivert GAZ",
+      "synced": true
+    },
+    {
+      "position": 14,
       "artist": "Ноггано",
-      "title": "Похороны",
-      "query": "Ноггано Похороны",
+      "title": "Триггер",
+      "query": "Ноггано Триггер",
+      "synced": false
+    },
+    {
+      "position": 15,
+      "artist": "Татьяна Буланова",
+      "title": "Ледяное сердце",
+      "query": "Татьяна Буланова Ледяное сердце",
+      "synced": true
+    },
+    {
+      "position": 16,
+      "artist": "Icegergert & A-THIS 52",
+      "title": "Не виновен",
+      "query": "Icegergert Не виновен",
+      "synced": false
+    },
+    {
+      "position": 17,
+      "artist": "NEXTIME & Даник",
+      "title": "КИС Ю",
+      "query": "NEXTIME КИС Ю",
+      "synced": true
+    },
+    {
+      "position": 18,
+      "artist": "Icegergert & Zivert",
+      "title": "БАНК",
+      "query": "Icegergert БАНК",
+      "synced": true
+    },
+    {
+      "position": 19,
+      "artist": "Miyagi & Эндшпиль",
+      "title": "I Got Love (feat. Рем Дигга)",
+      "query": "Miyagi I Got Love",
+      "synced": true
+    },
+    {
+      "position": 20,
+      "artist": "madk1d",
+      "title": "так п***й",
+      "query": "madk1d так п***й",
       "synced": false
     },
     {
       "position": 21,
-      "artist": "Ankara Echoes",
-      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
-      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "artist": "NAVAI",
+      "title": "Сгореть",
+      "query": "NAVAI Сгореть",
       "synced": true
     },
     {
       "position": 22,
-      "artist": "Ноггано",
-      "title": "Стосороковой",
-      "query": "Ноггано Стосороковой",
-      "synced": false
-    },
-    {
-      "position": 23,
       "artist": "Ноггано & Loc-Dog",
       "title": "Гидра",
       "query": "Ноггано Гидра",
       "synced": false
     },
     {
-      "position": 24,
-      "artist": "ANNA ASTI",
-      "title": "NPC",
-      "query": "ANNA ASTI NPC",
+      "position": 23,
+      "artist": "Ankara Echoes",
+      "title": "Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
+      "query": "Ankara Echoes Beni Al (Ta Ki Seni Görene Kadar) [Beni Al Afro House Remix]",
       "synced": true
     },
     {
-      "position": 25,
-      "artist": "Ноггано & Брутто",
-      "title": "Кактус",
-      "query": "Ноггано Кактус",
+      "position": 24,
+      "artist": "Ноггано",
+      "title": "Похороны",
+      "query": "Ноггано Похороны",
       "synced": false
+    },
+    {
+      "position": 25,
+      "artist": "HOLLYFLAME",
+      "title": "Тону",
+      "query": "HOLLYFLAME Тону",
+      "synced": true
     }
   ]
 }
