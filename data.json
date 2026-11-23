@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T05:31:05+00:00",
-  "updated_msk": "22.11.2026 08:31",
+  "updated": "2026-11-23T05:42:47+00:00",
+  "updated_msk": "23.11.2026 08:42",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -26,30 +26,30 @@
     },
     {
       "position": 4,
-      "artist": "By Индия, Xcho & МОТ",
-      "title": "Шадэ",
-      "query": "By Индия Шадэ",
-      "synced": true
-    },
-    {
-      "position": 5,
-      "artist": "Zivert",
-      "title": "не святая",
-      "query": "Zivert не святая",
-      "synced": true
-    },
-    {
-      "position": 6,
       "artist": "Icegergert & A-THIS 52",
       "title": "Не виновен",
       "query": "Icegergert Не виновен",
       "synced": false
     },
     {
+      "position": 5,
+      "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
+      "title": "Flower In A Hurricane [From GTAVI: Original Score]",
+      "query": "Justice Flower In A Hurricane [From GTAVI: Original Score]",
+      "synced": true
+    },
+    {
+      "position": 6,
+      "artist": "By Индия, Xcho & МОТ",
+      "title": "Шадэ",
+      "query": "By Индия Шадэ",
+      "synced": true
+    },
+    {
       "position": 7,
-      "artist": "ENZRO",
-      "title": "Ты не бойся ночи",
-      "query": "ENZRO Ты не бойся ночи",
+      "artist": "Zivert",
+      "title": "не святая",
+      "query": "Zivert не святая",
       "synced": true
     },
     {
@@ -61,9 +61,9 @@
     },
     {
       "position": 9,
-      "artist": "Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard",
-      "title": "Flower In A Hurricane [From GTAVI: Original Score]",
-      "query": "Justice Flower In A Hurricane [From GTAVI: Original Score]",
+      "artist": "ENZRO",
+      "title": "Ты не бойся ночи",
+      "query": "ENZRO Ты не бойся ночи",
       "synced": true
     },
     {
@@ -82,16 +82,16 @@
     },
     {
       "position": 12,
-      "artist": "Kimo Sounds",
-      "title": "Rise Slow",
-      "query": "Kimo Sounds Rise Slow",
+      "artist": "Toxi$ & Дора",
+      "title": "ЗНАК",
+      "query": "Toxi$ ЗНАК",
       "synced": true
     },
     {
       "position": 13,
-      "artist": "Toxi$ & Дора",
-      "title": "ЗНАК",
-      "query": "Toxi$ ЗНАК",
+      "artist": "Kimo Sounds",
+      "title": "Rise Slow",
+      "query": "Kimo Sounds Rise Slow",
       "synced": true
     },
     {
@@ -103,9 +103,9 @@
     },
     {
       "position": 15,
-      "artist": "Татьяна Буланова",
-      "title": "Ледяное сердце",
-      "query": "Татьяна Буланова Ледяное сердце",
+      "artist": "NAVAI",
+      "title": "Сгореть",
+      "query": "NAVAI Сгореть",
       "synced": true
     },
     {
@@ -131,16 +131,16 @@
     },
     {
       "position": 19,
-      "artist": "NAVAI",
-      "title": "Сгореть",
-      "query": "NAVAI Сгореть",
+      "artist": "Татьяна Буланова",
+      "title": "Ледяное сердце",
+      "query": "Татьяна Буланова Ледяное сердце",
       "synced": true
     },
     {
       "position": 20,
-      "artist": "Ноггано",
-      "title": "Триггер",
-      "query": "Ноггано Триггер",
+      "artist": "madk1d",
+      "title": "так п***й",
+      "query": "madk1d так п***й",
       "synced": false
     },
     {
@@ -152,23 +152,23 @@
     },
     {
       "position": 22,
-      "artist": "madk1d",
-      "title": "так п***й",
-      "query": "madk1d так п***й",
+      "artist": "Ноггано",
+      "title": "Триггер",
+      "query": "Ноггано Триггер",
       "synced": false
     },
     {
       "position": 23,
-      "artist": "HOLLYFLAME",
-      "title": "Тону",
-      "query": "HOLLYFLAME Тону",
+      "artist": "MATRANG",
+      "title": "Заманчивая",
+      "query": "MATRANG Заманчивая",
       "synced": true
     },
     {
       "position": 24,
-      "artist": "MATRANG",
-      "title": "Заманчивая",
-      "query": "MATRANG Заманчивая",
+      "artist": "HOLLYFLAME",
+      "title": "Тону",
+      "query": "HOLLYFLAME Тону",
       "synced": true
     },
     {
