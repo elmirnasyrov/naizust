@@ -1,21 +1,21 @@
 {
-  "updated": "2026-11-25T05:35:42+00:00",
-  "updated_msk": "25.11.2026 08:35",
+  "updated": "2026-11-26T05:35:05+00:00",
+  "updated_msk": "26.11.2026 08:35",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
       "position": 1,
-      "artist": "MATRANG",
-      "title": "Но забудь",
-      "query": "MATRANG Но забудь",
-      "synced": true
-    },
-    {
-      "position": 2,
       "artist": "Icegergert & A-THIS 52",
       "title": "Не виновен",
       "query": "Icegergert Не виновен",
       "synced": false
+    },
+    {
+      "position": 2,
+      "artist": "MATRANG",
+      "title": "Но забудь",
+      "query": "MATRANG Но забудь",
+      "synced": true
     },
     {
       "position": 3,
@@ -110,38 +110,38 @@
     },
     {
       "position": 16,
-      "artist": "Zivert",
-      "title": "GAZ",
-      "query": "Zivert GAZ",
-      "synced": true
-    },
-    {
-      "position": 17,
-      "artist": "Miyagi & Эндшпиль",
-      "title": "I Got Love (feat. Рем Дигга)",
-      "query": "Miyagi I Got Love",
-      "synced": true
-    },
-    {
-      "position": 18,
       "artist": "NEXTIME & Даник",
       "title": "КИС Ю",
       "query": "NEXTIME КИС Ю",
       "synced": true
     },
     {
-      "position": 19,
+      "position": 17,
+      "artist": "Zivert",
+      "title": "GAZ",
+      "query": "Zivert GAZ",
+      "synced": true
+    },
+    {
+      "position": 18,
       "artist": "Татьяна Буланова",
       "title": "Ледяное сердце",
       "query": "Татьяна Буланова Ледяное сердце",
       "synced": true
     },
     {
-      "position": 20,
+      "position": 19,
       "artist": "madk1d",
       "title": "так п***й",
       "query": "madk1d так п***й",
       "synced": false
+    },
+    {
+      "position": 20,
+      "artist": "Miyagi & Эндшпиль",
+      "title": "I Got Love (feat. Рем Дигга)",
+      "query": "Miyagi I Got Love",
+      "synced": true
     },
     {
       "position": 21,
@@ -152,30 +152,30 @@
     },
     {
       "position": 22,
-      "artist": "HOLLYFLAME",
-      "title": "Тону",
-      "query": "HOLLYFLAME Тону",
-      "synced": true
-    },
-    {
-      "position": 23,
       "artist": "Icegergert",
       "title": "Флирт",
       "query": "Icegergert Флирт",
       "synced": false
     },
     {
-      "position": 24,
+      "position": 23,
       "artist": "madk1d & VILLIAN",
       "title": "8 миля",
       "query": "madk1d 8 миля",
       "synced": true
     },
     {
+      "position": 24,
+      "artist": "HOLLYFLAME",
+      "title": "Тону",
+      "query": "HOLLYFLAME Тону",
+      "synced": true
+    },
+    {
       "position": 25,
-      "artist": "MATRANG",
-      "title": "Заманчивая",
-      "query": "MATRANG Заманчивая",
+      "artist": "Fontaines D.C.",
+      "title": "Starburster",
+      "query": "Fontaines D.C. Starburster",
       "synced": true
     }
   ]
