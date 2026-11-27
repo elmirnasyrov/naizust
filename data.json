@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T05:35:05+00:00",
-  "updated_msk": "26.11.2026 08:35",
+  "updated": "2026-11-27T05:36:43+00:00",
+  "updated_msk": "27.11.2026 08:36",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -12,16 +12,16 @@
     },
     {
       "position": 2,
-      "artist": "MATRANG",
-      "title": "Но забудь",
-      "query": "MATRANG Но забудь",
+      "artist": "VILLIAN & madk1d",
+      "title": "ДИНАСТИЯ",
+      "query": "VILLIAN ДИНАСТИЯ",
       "synced": true
     },
     {
       "position": 3,
-      "artist": "VILLIAN & madk1d",
-      "title": "ДИНАСТИЯ",
-      "query": "VILLIAN ДИНАСТИЯ",
+      "artist": "MATRANG",
+      "title": "Но забудь",
+      "query": "MATRANG Но забудь",
       "synced": true
     },
     {
@@ -54,30 +54,30 @@
     },
     {
       "position": 8,
-      "artist": "Zivert",
-      "title": "не святая",
-      "query": "Zivert не святая",
-      "synced": true
-    },
-    {
-      "position": 9,
       "artist": "BEARWOLF",
       "title": "Феникс",
       "query": "BEARWOLF Феникс",
       "synced": true
     },
     {
-      "position": 10,
+      "position": 9,
       "artist": "ENZRO",
       "title": "Ты не бойся ночи",
       "query": "ENZRO Ты не бойся ночи",
       "synced": true
     },
     {
+      "position": 10,
+      "artist": "Zivert",
+      "title": "не святая",
+      "query": "Zivert не святая",
+      "synced": true
+    },
+    {
       "position": 11,
-      "artist": "Toxi$ & Дора",
-      "title": "ЗНАК",
-      "query": "Toxi$ ЗНАК",
+      "artist": "HUGEL, Imael Angel & Ultra Naté",
+      "title": "Movin' To The Sun",
+      "query": "HUGEL Movin' To The Sun",
       "synced": true
     },
     {
@@ -89,9 +89,9 @@
     },
     {
       "position": 13,
-      "artist": "HUGEL, Imael Angel & Ultra Naté",
-      "title": "Movin' To The Sun",
-      "query": "HUGEL Movin' To The Sun",
+      "artist": "Toxi$ & Дора",
+      "title": "ЗНАК",
+      "query": "Toxi$ ЗНАК",
       "synced": true
     },
     {
@@ -103,16 +103,16 @@
     },
     {
       "position": 15,
-      "artist": "Icegergert & Zivert",
-      "title": "БАНК",
-      "query": "Icegergert БАНК",
+      "artist": "NEXTIME & Даник",
+      "title": "КИС Ю",
+      "query": "NEXTIME КИС Ю",
       "synced": true
     },
     {
       "position": 16,
-      "artist": "NEXTIME & Даник",
-      "title": "КИС Ю",
-      "query": "NEXTIME КИС Ю",
+      "artist": "Icegergert & Zivert",
+      "title": "БАНК",
+      "query": "Icegergert БАНК",
       "synced": true
     },
     {
@@ -124,17 +124,17 @@
     },
     {
       "position": 18,
-      "artist": "Татьяна Буланова",
-      "title": "Ледяное сердце",
-      "query": "Татьяна Буланова Ледяное сердце",
-      "synced": true
-    },
-    {
-      "position": 19,
       "artist": "madk1d",
       "title": "так п***й",
       "query": "madk1d так п***й",
       "synced": false
+    },
+    {
+      "position": 19,
+      "artist": "Татьяна Буланова",
+      "title": "Ледяное сердце",
+      "query": "Татьяна Буланова Ледяное сердце",
+      "synced": true
     },
     {
       "position": 20,
@@ -152,30 +152,30 @@
     },
     {
       "position": 22,
-      "artist": "Icegergert",
-      "title": "Флирт",
-      "query": "Icegergert Флирт",
-      "synced": false
-    },
-    {
-      "position": 23,
       "artist": "madk1d & VILLIAN",
       "title": "8 миля",
       "query": "madk1d 8 миля",
       "synced": true
     },
     {
-      "position": 24,
+      "position": 23,
       "artist": "HOLLYFLAME",
       "title": "Тону",
       "query": "HOLLYFLAME Тону",
       "synced": true
     },
     {
+      "position": 24,
+      "artist": "Icegergert",
+      "title": "Флирт",
+      "query": "Icegergert Флирт",
+      "synced": false
+    },
+    {
       "position": 25,
-      "artist": "Fontaines D.C.",
-      "title": "Starburster",
-      "query": "Fontaines D.C. Starburster",
+      "artist": "MATRANG",
+      "title": "Заманчивая",
+      "query": "MATRANG Заманчивая",
       "synced": true
     }
   ]
