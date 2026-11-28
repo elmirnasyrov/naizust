@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T05:36:43+00:00",
-  "updated_msk": "27.11.2026 08:36",
+  "updated": "2026-11-28T05:32:12+00:00",
+  "updated_msk": "28.11.2026 08:32",
   "source": "Чарт Apple Music, Россия: самые прослушиваемые песни",
   "songs": [
     {
@@ -8,7 +8,7 @@
       "artist": "Icegergert & A-THIS 52",
       "title": "Не виновен",
       "query": "Icegergert Не виновен",
-      "synced": false
+      "synced": true
     },
     {
       "position": 2,
@@ -19,16 +19,16 @@
     },
     {
       "position": 3,
-      "artist": "MATRANG",
-      "title": "Но забудь",
-      "query": "MATRANG Но забудь",
+      "artist": "МАЯК X",
+      "title": "Украсть тебя",
+      "query": "МАЯК X Украсть тебя",
       "synced": true
     },
     {
       "position": 4,
-      "artist": "МАЯК X",
-      "title": "Украсть тебя",
-      "query": "МАЯК X Украсть тебя",
+      "artist": "MATRANG",
+      "title": "Но забудь",
+      "query": "MATRANG Но забудь",
       "synced": true
     },
     {
@@ -68,23 +68,23 @@
     },
     {
       "position": 10,
-      "artist": "Zivert",
-      "title": "не святая",
-      "query": "Zivert не святая",
-      "synced": true
-    },
-    {
-      "position": 11,
       "artist": "HUGEL, Imael Angel & Ultra Naté",
       "title": "Movin' To The Sun",
       "query": "HUGEL Movin' To The Sun",
       "synced": true
     },
     {
+      "position": 11,
+      "artist": "NEXTIME & Даник",
+      "title": "КИС Ю",
+      "query": "NEXTIME КИС Ю",
+      "synced": true
+    },
+    {
       "position": 12,
-      "artist": "NAVAI",
-      "title": "Сгореть",
-      "query": "NAVAI Сгореть",
+      "artist": "Zivert",
+      "title": "не святая",
+      "query": "Zivert не святая",
       "synced": true
     },
     {
@@ -96,16 +96,16 @@
     },
     {
       "position": 14,
-      "artist": "Kimo Sounds",
-      "title": "Rise Slow",
-      "query": "Kimo Sounds Rise Slow",
+      "artist": "NAVAI",
+      "title": "Сгореть",
+      "query": "NAVAI Сгореть",
       "synced": true
     },
     {
       "position": 15,
-      "artist": "NEXTIME & Даник",
-      "title": "КИС Ю",
-      "query": "NEXTIME КИС Ю",
+      "artist": "Kimo Sounds",
+      "title": "Rise Slow",
+      "query": "Kimo Sounds Rise Slow",
       "synced": true
     },
     {
@@ -152,9 +152,9 @@
     },
     {
       "position": 22,
-      "artist": "madk1d & VILLIAN",
-      "title": "8 миля",
-      "query": "madk1d 8 миля",
+      "artist": "Icegergert",
+      "title": "Флирт",
+      "query": "Icegergert Флирт",
       "synced": true
     },
     {
@@ -166,16 +166,16 @@
     },
     {
       "position": 24,
-      "artist": "Icegergert",
-      "title": "Флирт",
-      "query": "Icegergert Флирт",
-      "synced": false
+      "artist": "madk1d & VILLIAN",
+      "title": "8 миля",
+      "query": "madk1d 8 миля",
+      "synced": true
     },
     {
       "position": 25,
-      "artist": "MATRANG",
-      "title": "Заманчивая",
-      "query": "MATRANG Заманчивая",
+      "artist": "SAYAN",
+      "title": "Мальборо",
+      "query": "SAYAN Мальборо",
       "synced": true
     }
   ]
